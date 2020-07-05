@@ -46,9 +46,9 @@ class App {
 
         for (let i = 0; i < this.totalParticles; i++) {
             const item = new GlowParticle(
-                Math.random * this.stageWidth,
-                Math.random * this.stageHeight,
-                Math.random * 
+                Math.random() * this.stageWidth,
+                Math.random() * this.stageHeight,
+                Math.random() * 
                 (this.maxRadius - this.minRadius) + this.minRadius,
                 COLORS[curColor]
             );
